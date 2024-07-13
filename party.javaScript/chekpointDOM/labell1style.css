@@ -1,0 +1,73 @@
+ .container{
+     
+    display: grid;
+    text-align: center;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
+    size: 100vh;
+    gap: 30px 30px;
+}
+div:not(.container)::before{
+   position: absolute;
+    color: rgb(240, 35, 35);
+    text-align: center;
+   background-color: #ddff00
+   
+}
+div:not(.container ):hover{
+    background-color: rgb(95, 6, 249);
+    
+    box-shadow: inset 0 7px 10px #02c8ff;
+}
+h1,title{
+    color: blue;
+    text-align: center;
+    background-color: #ffffffa5;
+    padding: 14px 0 15px 15px 15px;
+    
+}
+address{ 
+    letter-spacing:  12px; ;
+}
+title{
+    color: rgb(255, 240, 253);
+
+}
+main{
+    border-radius: 5%;
+   background-color: rgba(24, 24, 24, 0.452);
+}
+.item{
+    color: rgb(0, 255, 51);
+    
+    border-top-right-radius: 36%;
+    column-gap: 55px;
+    row-gap: 29px;
+    border: solid;
+    box-shadow: inset 0 7px 10px #03ffdd;
+    transition: 2s
+    
+}
+header{
+   background-color: rgba(6, 16, 4, 0.116);
+   border-top-left-radius: 19%;
+}   
+div{
+    padding-top: 20px;
+}
+footer{
+    background-color: rgba(160, 160, 160, 0.436);
+}
+table,th,td{
+    border: solid;
+}
+aside{
+    float: center;
+    background-color: aqua;
+}
+.SS{
+    color: #ff00e1;
+}
+i {
+    color: #ff00e1;
+}

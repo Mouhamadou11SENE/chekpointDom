@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+main{
+    display: contents;
+    border: dashed;
+
+}
+.affiche{
+    height: 180px;
+    width: 180px;
+    background: transparent;
+}
+footer{
+    background-color: rgb(247, 4, 121);
+}
+button{
+   background-color: rgba(7, 7, 219, 0.466);
+}
+p{
+    color: rgb(150, 220, 45);
+}
+body,html{
+    place-items: center;
+    display: grid;
+    background-color: rgba(16, 30, 25, 0.365);
+    border: dashed;
+   margin-left: 12px;
+   margin-right: 12px;
+}

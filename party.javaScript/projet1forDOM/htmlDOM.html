@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projet1DOM</title>
+     <link rel="stylesheet" href="styleDOM.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+   
+</head>
+<body>
+<header>
+<div class="post header">
+    <h1 class="title" > <strong> testez votre connaissance ! <br> football  <i class="fa fa-futbol fa-bounce" style="color: #63E6BE;"></i></h1>
+</div>
+</header>
+<main>
+    <section>
+ <h2 class="instructions"><strong>Ne reflechissez pas trop en repondant ces questions ce n est que le debut du commencement! <br>niveau :easy</strong></h2>
+   <h2 class="consigne">DONNER LA BONNE REPONSE  !</h2>
+
+    <br />
+
+   <div class="quiz" id="firstquiz">
+    <h1 name="quiz2">LE MEILLEUR JOUEUR EN 2024 EST </h1>
+    <form action="input"> 
+        <div name="reponse" id="joueur"> 
+        <ul>
+            <i class="fa-solid fa-face-smile fa-beat" style="color: rgb(179, 255, 48);"></i><li><p class="MESSI" onclick="alert('score: 33%') "> MESSI</p>  </li>
+            <i class="fa-solid fa-face-smile fa-beat"  style="color: rgb(48, 51, 255);" ></i> <li> <p class="NEYMAR" onclick="alert('FALSSE')"> NEYMAR</p>  </li>
+            <i class="fa-solid fa-face-smile fa-beat"  style="color: rgb(255, 15, 127);" ></i> <li><p class="CR7" onclick="alert('FALSE ')"> CR7</p>    </li>
+ 
+    </ul>
+</div>
+    </form>
+</section>
+   </div>
+   <section>
+    <h2 class="instructions"><strong> Passez en vitesse superrieur ! <br>niveau :medium</strong></h2></section>
+    <h2 class="consigne"> DONNER LA BONNE REPONSE !</h2>
+
+    <br />
+
+   <div class="quiz" id="secondquiz">
+    <h1 name="quiz2"> ORIGINE DE MESSI ?</h1>
+    <form action="input"> 
+        <div name="pays" id="origine"> 
+        <div>
+            <ul>
+                <i class="fa fa-spinner fa-spin fa-spin-reverse" style="color:  #149dff; " ></i>  <li>    <p value1="senegal" onclick="alert('FALSE ')"> senegal</p> </li>
+                <i class="fa fa-spinner fa-spin fa-spin-reverse" style="color:  #ff6614; "></i>    <li> <p value3="argentille" onclick="  alert('score: 33%') "> argentille</p> </li>
+                <i class="fa fa-spinner fa-spin fa-spin-reverse" style="color:  #56482d; "></i>  <li>  <p vale3="france" onclick="alert('FALSE ')"> france</p>   </li>
+    </ul>
+        </div>
+    </form>
+
+   </div>
+</section>
+   <h2 class="instructions"><strong>Il est temps de se salir les mains! <br>niveau :hard</strong></h2>
+   <h2 class="consigne">DONNER LA BONNE REPONSE !</h2>
+
+   <br />
+
+    <div class="quiz" id="thirdquiz">
+        <h1 name="quiz2"> CLUB DE  MESSI  EN 2024 EST</h1>
+        <form action="input"> 
+           <div> 
+            <ul>
+                <i class="fa fa-fire fa-beat-fade" style="color:  #14ffd4; --fa-secondary-color: #ff1438;"></i>  <li>   <p  class=" fcb"  onclick="alert('FALSE ')"> fcb</p></li>
+                <i class="fa fa-fire fa-beat-fade" style="color: #a1675a; --fa-secondary-color: #ff1438;"></i>   <li> <p class ="psg"  onclick="alert('FALSE ')"> psg </p></li>
+                <i class="fa  fa-fire fa-beat-fade" style="color: #2d0cff; --fa-secondary-color: #ff1438;"></i>   <li>  <p class ="al hillal"  onclick="alert('score : 33%')"> al hillal</p></li>
+        </ul>
+            </div>
+        </form>
+        
+       
+
+   </div>
+</section>
+</main>
+
+<br />
+
+<footer> 
+    <div>
+        <button id="note" onclick= "alert('votre score total est de de : 66%')"> soumettre :</button>
+    </div>
+    </footer>
+ <script src="forDOM.JS"> 
+   
+ </script>
+</body>
+</html>
